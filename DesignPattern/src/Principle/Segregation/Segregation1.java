@@ -14,7 +14,7 @@ public class Segregation1 {
     }
 }
 interface Interface1{
-    public void operation1();
+    public void operation1();//接口的权限默认是公用的（public）
 }
 interface Interface2{
     public void operation2();
