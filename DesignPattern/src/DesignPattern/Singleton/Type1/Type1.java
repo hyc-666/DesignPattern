@@ -1,4 +1,4 @@
-package DesignPattern.Singleton;
+package DesignPattern.Singleton.Type1;
 //单例模式
 public class Type1 {
     public static void main(String[] args) {
