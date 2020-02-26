@@ -1,4 +1,4 @@
-package DesignPattern.Singleton.Type1;
+package Singleton.Singleton.Type1;
 //单例模式
 public class Type1 {
     public static void main(String[] args) {
@@ -23,7 +23,6 @@ public class Type1 {
 class Singleton{
     //构造器私有化,外部不能new
     private Singleton(){
-
     }
     //本类内部创建对象实例
     private final static Singleton instance = new Singleton();
