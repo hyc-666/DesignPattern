@@ -9,7 +9,7 @@ package Composite;
  * 4)组合模式使得用户对单个对象和组合对象的访问具有-致性，即:组合能让客
  * 户以一致的方式处理个别对象以及组合对象
  */
-
+//这个类可以是任意的，可以是普通类，可以是抽象类，还可以是接口
 public abstract class Composite {
     private String name;//在机构的名字
     private String des;//描述
