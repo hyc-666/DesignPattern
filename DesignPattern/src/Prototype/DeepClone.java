@@ -71,7 +71,7 @@ class DeepTarget implements Cloneable,Serializable{
         return target;
     }
 }
-//第二个类，这个和类里面又一个引用类型
+//第二个类，这个类里面有一个引用类型
 class DeepTarget2 implements Cloneable, Serializable {
     String name;
     DeepTarget target;
